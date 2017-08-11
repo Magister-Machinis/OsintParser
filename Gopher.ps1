@@ -80,7 +80,7 @@ $urlsinwaiting = @()
 $vtip = "http://www.virustotal.com/vtapi/v2/ip-address/report"
 $vturl = "http://www.virustotal.com/vtapi/v2/url/report"
 #place your virustotal apikey below, talk to John if you need help getting one
-$apikey = "a397bb0bbc39b53f67e57514432281c57beb53c96182292108510aa08b5fe934"
+$apikey = "use your own"
 
 
 # END OF CONFIGURATION SECTION
