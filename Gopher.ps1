@@ -85,7 +85,7 @@ $apikey = "use your own"
 
 # END OF CONFIGURATION SECTION
 # more error handling stuff
-if($apikey.length -eq 0 -and $VIRUSTOTAL -eq 1)
+if(($apikey.length -eq 0 -or $apikey -eq "use your own") -and $VIRUSTOTAL -eq 1)
 {
     write-host "No Virustotal API key provided, exiting"
     sleepbar 3
